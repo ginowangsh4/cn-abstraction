@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Demo {
+
     public static void main( String[] args ) throws IOException {
         Player player = new Player();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -18,11 +19,18 @@ public class Demo {
             }
             System.out.println("You recorded your meal as " + s);
 
-            if (s == "left") {
-                player.left();
+            if (s.equals("left")) {
+                player.low();
             } else {
-                player.right();
+                player.low();
+            }
+
+            if (player.current instanceof Winner ||
+                    player.current instanceof Eliminated) {
+                break;
             }
         }
+
+        System.out.println("Ending Food Fight...");
     }
 }

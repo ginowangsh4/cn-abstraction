@@ -1,5 +1,5 @@
 class Player {
-    private State current;
+    public State current;
 
     public Player() {
         current = new Starting();
@@ -9,11 +9,11 @@ class Player {
         current = state;
     }
 
-    public void left() {
-        current.left(this);
+    public void low() {
+        current.low(this);
     }
 
-    public void right() {
-        current.right(this);
+    public void high() {
+        current.high(this);
     }
 }
