@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b6918f-3053-450a-91d6-b736655b5f29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fsm-abstraction/Demo.class" afterPath="$PROJECT_DIR$/out/production/fsm-abstraction/Demo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fsm-abstraction/Eliminated.class" afterPath="$PROJECT_DIR$/out/production/fsm-abstraction/Eliminated.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fsm-abstraction/HighBalance.class" afterPath="$PROJECT_DIR$/out/production/fsm-abstraction/HighBalance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fsm-abstraction/LowBalance.class" afterPath="$PROJECT_DIR$/out/production/fsm-abstraction/LowBalance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fsm-abstraction/Player.class" afterPath="$PROJECT_DIR$/out/production/fsm-abstraction/Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fsm-abstraction/Starting.class" afterPath="$PROJECT_DIR$/out/production/fsm-abstraction/Starting.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fsm-abstraction/State.class" afterPath="$PROJECT_DIR$/out/production/fsm-abstraction/State.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fsm-abstraction/Winner.class" afterPath="$PROJECT_DIR$/out/production/fsm-abstraction/Winner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Demo.java" afterPath="$PROJECT_DIR$/src/Demo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Player.java" afterPath="$PROJECT_DIR$/src/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/State.java" afterPath="$PROJECT_DIR$/src/State.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,8 +18,8 @@
       <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/State.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            <state relative-caret-position="247">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="class#Eliminated#0" expanded="false" />
                 <element signature="class#Winner#0" expanded="false" />
@@ -61,8 +50,8 @@
       <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="360">
+              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,9 +79,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/State.java" />
         <option value="$PROJECT_DIR$/src/Player.java" />
         <option value="$PROJECT_DIR$/src/Demo.java" />
+        <option value="$PROJECT_DIR$/src/State.java" />
       </list>
     </option>
   </component>
@@ -305,22 +294,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="class#Eliminated#0" expanded="false" />
-            <element signature="class#Winner#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -338,10 +316,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="class#Eliminated#0" expanded="false" />
+            <element signature="class#Winner#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="360">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

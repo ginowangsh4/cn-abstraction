@@ -42,7 +42,7 @@ class LowBalance extends State {
 class HighBalance extends State {
     public void low(Player wrapper) {
         wrapper.setState(new LowBalance());
-        System.out.println(RED + "--- Oops, your nutrition balance is now low ---\n" + RESET);
+        System.out.println(RED + "--- Oops, your nutrition balance is now low, meals left to recharge " + Integer.toString(2) + "---\n" + RESET);
     }
 
     public void high(Player wrapper) {

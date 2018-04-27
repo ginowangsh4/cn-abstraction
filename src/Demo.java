@@ -9,7 +9,6 @@ public class Demo {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         while (true) {
-            // only support left or right now
             System.out.println("Record your meal:");
             String s = "";
             try {
@@ -19,10 +18,10 @@ public class Demo {
             }
             System.out.println("You recorded your meal as " + s);
 
-            if (s.equals("left")) {
+            if (s.equals("low")) {
                 player.low();
             } else {
-                player.low();
+                player.high();
             }
 
             if (player.current instanceof Winner ||
